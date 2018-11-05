@@ -1,0 +1,4 @@
+[{"version": 1, "verbs": {"post": [{"ProfAdviser": ["login"], "Referral": ["login"], "User": ["login"], "ClientUser": ["login"]}, {"required": true, "type": "object", "name": "params", "properties": [{"items": [{"required": true, "type": "Integer", "name": "level"}, {"required": tr
+ue, "type": "String", "name": "name"}, {"required": true, "type": "Integer", "name": "timestamp"}, {"required": true, "type": "StringKeyedDict", "name": "payload"}, {"required": false, "type": "EmptySafeString", "name": "correlation_id"}], "required": true, "type": "array", "name": 
+"entries"}, {"required": false, "type": "String", "name": "correlation_id"}]}]}, "name": "App Logging", "uri": "logging/app"}, {"version": 1, "verbs": {"get": [{"*": ["login"]}, {"items": [], "required": true, "type": "array", "name": "returns"}]}, "name": "System Handler Collection
+", "uri": "system/handler"}]
